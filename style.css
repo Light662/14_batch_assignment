@@ -655,3 +655,36 @@ a {
 footer{
     background-color:#0d1b2aFF;
 }
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+}
+.footer-content img{
+    width: 80%;
+}
+.footer-content span{
+    font-size: 22px;
+    color: #cbd5e1;
+}
+.footer-align{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-container hr{
+    border: none;
+    border-top: 1px solid rgb(38, 64, 92);
+    margin: 0 90px;
+}
+.footer-style{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+    color:#ffffff66;
+    padding: 20px 90px;
+}
+.footer-align span:hover{
+    cursor: pointer;
+}
