@@ -80,3 +80,56 @@ a{
 
 /* meet the speaker start */
 
+
+.speaker{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+.speaker h2{
+    display: grid;
+    justify-content: center;
+}
+.speaker h2{
+    font-size: 46px;
+    font-weight: 700;
+    color: #000102FF;
+}
+.speaker-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+.speaker-content article {
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+.speaker-content img{
+    width: 100%;
+}
+
+.speaker-content h6{
+    color: #2563ebFF;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.speaker-content h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0d1b2aFF;
+    margin-bottom: 10px;
+}
+.speaker-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757FF;
+    margin-bottom: 10px;
+}
+.speaker-content article div{
+    padding-left: 20px;
+}
